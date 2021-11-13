@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 7555
+#
+DEF 7555 U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "7555" 50 -400 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+S -300 300 250 -300 0 1 0 N
+X gnd 1 -400 200 100 R 50 50 1 1 I
+X ~trig 2 -400 50 100 R 50 50 1 1 I
+X out 3 -400 -100 100 R 50 50 1 1 I
+X ~rst 4 -400 -250 100 R 50 50 1 1 I
+X cv 5 350 -250 100 L 50 50 1 1 I
+X tresh 6 350 -100 100 L 50 50 1 1 I
+X dis 7 350 50 100 L 50 50 1 1 I
+X vdd 8 350 200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
